@@ -94,26 +94,6 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -285,3 +265,76 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+body{
+    background: #eff7fa;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    max-width: 100%;
+}
+
+.header__body{
+    width: 1240px;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.header__logo{
+    width: 225px;
+    margin: 1em 0em;
+}
+
+.header__nav{
+    margin: .5em 0em 1.5em;
+}
+
+.header__nav a{
+    padding: 13px 25px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.banner{
+    max-width: 100%;
+    display: flex;
+}
+
+.banner__img{
+    max-width: 100%;
+}
+
+.banner__heading{
+    position: absolute;
+    font-family: 'Sacramento', cursive;
+    color: #fff;
+    font-size: 5em;
+    font-weight: 300;
+}
+
+/* ==========================================================================
+   Fonts used 
+   font-family: 'Sacramento', cursive;
+   font-family: 'Open Sans', sans-serif;
+
+   ========================================================================== */
