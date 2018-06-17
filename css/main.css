@@ -279,6 +279,7 @@ body{
     background: #eff7fa;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
 }
 
 .header{
@@ -356,6 +357,17 @@ body{
     background: #d4e5f1;
 }
 
+.row.section__body{
+    max-width: 100%;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.section__order--img p{
+    font-size: 18px;
+    line-height: 4.2;
+}
+
 .btn.order__btn--blue {
     color: #fff;
     font-size: 16px;
@@ -363,6 +375,18 @@ body{
     background: #2a6388;
     font-weight: 600;
     padding: 10px 25px;
+}
+.row.section__tab{
+    width: 100%;
+}
+
+.section__social--img {
+    display: inline-block;
+    margin: 0px 12px;
+}
+
+.social--icon{
+    width: 30px;
 }
 
 footer{
