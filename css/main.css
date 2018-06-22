@@ -282,6 +282,13 @@ body{
     max-width: 100%;
 }
 
+.underline{
+    width: 100px;
+    height: 4px;
+    background: #004877;
+    margin: 0 auto;
+}
+
 .header{
     max-width: 100%;
 }
@@ -361,6 +368,7 @@ body{
     max-width: 100%;
     width: 1080px;
     margin: 0 auto;
+    padding-top: 25px;
 }
 
 .section__order--img p{
