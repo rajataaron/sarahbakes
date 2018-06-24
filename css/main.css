@@ -278,7 +278,7 @@ textarea {
 body{
     background: #eff7fa;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 100%;
 }
 
@@ -323,10 +323,64 @@ body{
     font-weight: 600;
 }
 
-.banner{
+.banner__index{
     max-width: 100%;
     display: flex;
     position: relative;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/hero-img1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner__about{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner__menu{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/menu-3.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner__contact{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .banner__img{
@@ -341,7 +395,7 @@ body{
     font-weight: 300;
     width: 55%;
     left: 23%;
-    top: 15%;
+    top: 28%;
 }
 
 .section__about{
@@ -371,6 +425,10 @@ body{
     padding-top: 25px;
 }
 
+.section__order--img img{
+    width: 85%;
+}
+
 .section__order--img p{
     font-size: 18px;
     line-height: 4.2;
@@ -386,6 +444,11 @@ body{
 }
 .row.section__tab{
     width: 100%;
+}
+
+.section__tab--menu img{
+    width: 100%;
+    height: auto;
 }
 
 .section__social--img {
@@ -409,6 +472,27 @@ footer h4{
 
 footer .footer__copyright{
     
+}
+
+/* Media Queries */
+@media screen and (max-width: 760px) {
+    .banner__heading{
+        position: absolute;
+        font-family: 'Sacramento', cursive;
+        color: #fff;
+        font-size: 3em;
+        font-weight: 300;
+        width: 100%;
+        left: 2%;
+        top: 18%;
+    }
+    .section__about p{
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 480px) {
+
 }
 /* ==========================================================================
    Fonts used 
