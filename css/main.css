@@ -323,6 +323,11 @@ body{
     font-weight: 600;
 }
 
+.col-md-6.section__tab--menu {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .banner__index{
     max-width: 100%;
     display: flex;
@@ -431,7 +436,7 @@ body{
 
 .section__order--img p{
     font-size: 18px;
-    line-height: 4.2;
+    line-height: 2.4;
 }
 
 .btn.order__btn--blue {
@@ -444,6 +449,8 @@ body{
 }
 .row.section__tab{
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .section__tab--menu img{
@@ -464,6 +471,13 @@ body{
     width: 30px;
 }
 
+.section__iframe{
+    width:60%;
+    border:0;
+    overflow:hidden;
+    height: 100vh;
+}
+
 footer{
     padding: 40px 0px;
     background: #363636;
@@ -480,7 +494,49 @@ footer .footer__copyright{
 
 /* Media Queries */
 @media screen and (max-width: 760px) {
+    .banner__index .banner__heading{
+        position: absolute;
+        font-family: 'Sacramento', cursive;
+        color: #fff;
+        font-size: 4em;
+        font-weight: 300;
+        width: 100%;
+        left: 2%;
+        top: 32%;
+    }
     .banner__heading{
+        position: absolute;
+        font-family: 'Sacramento', cursive;
+        color: #fff;
+        font-size: 4em;
+        font-weight: 300;
+        width: 100%;
+        left: 0%;
+        top: 36%;
+    }
+    .section__about{
+        padding: 25px;
+    }
+    .section__about p{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .header__nav a {
+        padding: 13px 25px;
+        font-size: 14px;
+    }
+    .section__order--img img {
+        width: 40%;
+    }
+    .section__iframe {
+        width: 75%;
+    }
+    .col-md-4.section__order--img {
+        padding: 10px 0px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .banner__index .banner__heading{
         position: absolute;
         font-family: 'Sacramento', cursive;
         color: #fff;
@@ -488,15 +544,29 @@ footer .footer__copyright{
         font-weight: 300;
         width: 100%;
         left: 2%;
-        top: 18%;
+        top: 32%;
+    }
+    .banner__heading{
+        position: absolute;
+        font-family: 'Sacramento', cursive;
+        color: #fff;
+        font-size: 3em;
+        font-weight: 300;
+        width: 100%;
+        left: 0%;
+        top: 36%;
     }
     .section__about p{
         width: 100%;
         margin: 20px auto;
     }
-}
-@media screen and (max-width: 480px) {
-
+    .section__iframe{
+        width:100%;
+    }
+    .header__nav a {
+        padding: 13px 10px;
+        font-size: 12px;
+    }
 }
 /* ==========================================================================
    Fonts used 
