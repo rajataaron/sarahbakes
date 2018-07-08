@@ -456,6 +456,10 @@ body{
     margin: 0px 12px;
 }
 
+.section__social--img--padding{
+    padding: 20px 0px;
+}
+
 .social--icon{
     width: 30px;
 }
