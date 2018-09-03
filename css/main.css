@@ -447,6 +447,10 @@ body{
     font-weight: 600;
     padding: 10px 25px;
 }
+.btn.order__btn--blue:hover {
+    background: #1f4760;
+    transition: 0.2s ease;
+}
 .row.section__tab{
     width: 100%;
     margin-left: 0;
@@ -489,7 +493,7 @@ footer h4{
 }
 
 footer .footer__copyright{
-    
+    margin-top: 45px;
 }
 
 /* Media Queries */
